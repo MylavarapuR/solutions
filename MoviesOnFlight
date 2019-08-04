@@ -24,8 +24,10 @@ public class MoviesOnFlight {
 
 	public static void main(String[] args) {
 		int[] inpArr = {90, 85, 75, 60, 120, 150, 125};
+		int[] otp = new int[2];
 		int d = 250;
-		calculateDuration(inpArr , d);
+		otp = calculateDuration(inpArr , d);
+		System.out.println(otp[0] +","+otp[1]);
 	}
 	//Calculates the movies
 	//Inputs array of movies duration
